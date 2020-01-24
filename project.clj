@@ -7,7 +7,7 @@
                  [org.clojure/clojurescript "1.7.228" :scope "provided"]]
   :deploy-repositories {"releases" :clojars
                         "snapshots" :clojars}
-  :source-paths ["src" "assets"]
+  :source-paths ["src"]
   :test-paths ["test"]
   :jar-exclusions [#"\.swp|\.swo|user.clj"]
 
